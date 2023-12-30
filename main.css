@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(222, 200, 30);
+    color: #fff;
+    text-align: center;
+}
+
+header ul img {
+    height: 24px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+header nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+header,
+form button {
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+body, input, textarea {
+    font-family: 'Kalnia', serif;
+    font-weight: 500;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+
+#aboutme {
+    display: block;
+    text-align: center;
+    margin-bottom: none;
+    text-decoration: none;
+}
+
+#aboutme .left-column,
+#aboutme p {
+    display: flex;
+    text-align: left;
+    margin-left: 32px;
+    justify-content: space-between;
+}
+
+form {
+
+    display: block;
+    margin: 100px;
+    margin-top: auto;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 180px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+form button {
+    background-color:rgb(222, 200, 30);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+#aboutme,
+#contact {
+    align-items: center;
+}
+.img-gallery {
+    width: 600px;
+    padding: 20px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    grid-gap: 30px;
+}
+
+.img-gallery img {
+    width: 100%;
+    cursor: pointer;
+}
+
+footer .container {
+    padding: 16px;
+    background-color: rgb(222, 200, 30);
+    color: #fff;
+    text-align: center;
+}
+
+
